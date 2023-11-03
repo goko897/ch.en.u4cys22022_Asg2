@@ -1,0 +1,337 @@
+
+
+.title{
+  font-style:oblique;
+  font-size:30px;
+  text-align: center;
+  font-weight: 200;
+  font-feature-settings: "akhn";
+  text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+  color: #ecbb40;
+}
+
+.subTitle{
+  font-style:oblique;
+  font-size:50px;
+  align-content: center;
+  font-weight: 200;
+  font-feature-settings: "akhn";
+  text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+  color: #ecbb40;
+}
+.container{
+box-sizing: border-box;
+align-items: center;
+}
+
+body {
+margin: 0;
+font-family: Arial;
+}
+
+.row {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+-ms-flex: 33%; /* IE10 */
+flex: 33%;
+max-width: 32%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+  -ms-flex: 100%;
+  flex: 100%;
+  max-width: 100%;
+}
+}
+.logo{
+  border-radius: 50%;
+  align-items: center;
+  width: 60px;
+  height: 50px;
+}
+
+table { 
+  border: 1px solid black; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 30%;
+
+} 
+
+input[type="button"] { 
+  width: 100%; 
+  padding: 10px 30px; 
+  background-color: #ecbb40; 
+  color: white; 
+  font-size: 24px; 
+  font-weight: bold; 
+  border: none; 
+  border-radius: 5px; 
+  box-shadow: 5px 5px 5px 5px gray;
+} 
+input[type="text"], input[type="password"] ,textarea,select { 
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box; 
+}
+table{
+border: hidden;
+}
+
+.textOnPage{
+font-style:oblique;
+font-size: 40px;
+}
+
+
+.row {
+display: -ms-flexbox; /* IE 10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE 10 */
+flex-wrap: wrap;
+padding: 0 4px;
+}
+.form{
+font-style:oblique;
+  font-size:30px;
+  font-weight: 200;
+  font-feature-settings: "akhn";
+  text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+-ms-flex: 50%; /* IE 10 */
+flex: 50%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+}
+ul {
+list-style-type: none;
+margin: 2;
+padding: 4px;
+overflow: hidden;
+background-color: #747070;
+padding-left: 2px;
+margin-top: 2px;
+}
+li{
+float: left;
+padding: 2;
+
+border-radius: 20;
+}
+
+
+.img {
+display: block;
+width: 100%;
+max-height: 150%;
+}
+
+.grid{
+box-sizing: border-box;
+
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+flex: 50%;
+padding: 0 4px;
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+}
+.text {
+font-style:oblique;
+color: white;
+font-size: 60px;
+position: absolute;
+top: 50%;
+left: 50%;
+}
+.btn{
+border-radius: 8px;
+background-color: #747070;
+  color: white;
+  padding: 16px;
+  font-style: italic;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  align-self: left;
+}
+.btn:hover, .btn:focus {
+background-color: #ecbb40;
+}
+.Content{
+font-style:oblique;
+  font-size:30px;
+  margin-left: 200px;
+  margin-top: 0px;
+  margin: ;
+  font-weight: 200;
+  font-feature-settings: "akhn";
+  text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+  
+
+}
+#image{
+margin-top: 10px;
+box-shadow: 5px 5px 5px 5px gray;
+width: 60px;;
+padding: 20px;
+font-weight: 400;
+padding-bottom: 0px;
+height: 40px;
+user-select: none;
+text-decoration:line-through;
+font-style: italic;
+font-size: x-large;
+border: red 2px solid;
+margin-left: 10px;
+
+}
+
+
+.inline{
+display:inline-block;
+}
+#btn{
+box-shadow: 5px 5px 5px grey;
+color: aqua;
+margin: 10px;
+background-color: brown;
+}
+
+.container1 {
+position: relative;
+width: 50%;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 100%;
+width: 100%;
+opacity: 0;
+transition: .5s ease;
+background-color: #ecbb40;
+}
+
+.container1:hover .overlay {
+opacity: 1;
+}
+
+.text {
+font-style:oblique;
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.form.captcha {
+margin:15px 0px;
+position: relative;
+}
+.form .captcha .preview {
+color:#555;
+width:100%;
+text-align:center;
+height:40px;
+line-height:40px;
+letter-spacing:8px;
+border:1px dashed #888;
+border-radius: 4px;
+font-family:"monospace";
+}
+.form.captcha .preview span {
+display:inline-block;
+user-select:none;
+}
+.form.captcha .captcha-form {
+display:flex;
+}
+.form.captcha .captcha-form input {
+width:100%;
+outline: none;
+padding:8px;
+border-radius: 4px;
+border:1px solid #888;
+}
+.form.captcha .captcha-form .captcha-refresh {
+width:40px;
+border:none;
+outline:none;
+background:#888;
+border-radius: 4px;
+color:#eee;
+cursor:pointer;
+}
+.form{
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+footer{
+  font-style:oblique;
+  font-size:30px;
+  font-weight: 200;
+  font-feature-settings: "akhn";
+  text-shadow:0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+  background-color: #888;
+}
